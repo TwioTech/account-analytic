@@ -22,12 +22,7 @@ msgid "Account"
 msgstr "Konto"
 
 #. module: account_analytic_required
-#: model:ir.model,name:account_analytic_required.model_account_account_type
-msgid "Account Type"
-msgstr "Kontotyp"
-
-#. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__always
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__always
 msgid "Always"
 msgstr "Alltid"
 
@@ -63,7 +58,7 @@ msgstr ""
 
 #. module: account_analytic_required
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account__display_name
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__display_name
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__display_name
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move__display_name
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move_line__display_name
 msgid "Display Name"
@@ -71,7 +66,7 @@ msgstr "Visningsnamn"
 
 #. module: account_analytic_required
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account__id
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__id
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__id
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move__id
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move_line__id
 msgid "ID"
@@ -89,34 +84,34 @@ msgstr "Journalrad"
 
 #. module: account_analytic_required
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_account____last_update
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type____last_update
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account____last_update
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move____last_update
 #: model:ir.model.fields,field_description:account_analytic_required.field_account_move_line____last_update
 msgid "Last Modified on"
 msgstr "Senast ändrad den"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__never
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__never
 msgid "Never"
 msgstr "Aldrig"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__optional
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__optional
 msgid "Optional"
 msgstr "Valfritt"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__property_analytic_policy
 msgid "Policy for analytic account"
 msgstr "Objektkontopolicy"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__posted
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__posted
 msgid "Posted moves"
 msgstr "Bokförda poster"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,help:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,help:account_analytic_required.field_account_account__property_analytic_policy
 msgid ""
 "Sets the policy for analytic accounts.\n"
 "If you select:\n"

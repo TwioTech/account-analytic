@@ -19,12 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_analytic_required
-#: model:ir.model,name:account_analytic_required.model_account_account_type
-msgid "Account Type"
-msgstr ""
-
-#. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__always
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__always
 msgid "Always"
 msgstr ""
 
@@ -65,27 +60,27 @@ msgid "Journal Item"
 msgstr ""
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__never
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__never
 msgid "Never"
 msgstr ""
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__optional
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__optional
 msgid "Optional"
 msgstr ""
 
 #. module: account_analytic_required
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__property_analytic_policy
 msgid "Policy for analytic account"
 msgstr "Kostenplaatsenbeleid"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__posted
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__posted
 msgid "Posted moves"
 msgstr ""
 
 #. module: account_analytic_required
-#: model:ir.model.fields,help:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,help:account_analytic_required.field_account_account__property_analytic_policy
 msgid ""
 "Sets the policy for analytic accounts.\n"
 "If you select:\n"

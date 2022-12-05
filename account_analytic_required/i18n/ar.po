@@ -21,12 +21,7 @@ msgstr ""
 "X-Generator: Weblate 3.1.1\n"
 
 #. module: account_analytic_required
-#: model:ir.model,name:account_analytic_required.model_account_account_type
-msgid "Account Type"
-msgstr "نوع الحساب"
-
-#. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__always
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__always
 msgid "Always"
 msgstr "دائماً"
 
@@ -72,27 +67,27 @@ msgid "Journal Item"
 msgstr "عنصر اليومية"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__never
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__never
 msgid "Never"
 msgstr "ممنوع"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__optional
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__optional
 msgid "Optional"
 msgstr "إختياري"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__property_analytic_policy
 msgid "Policy for analytic account"
 msgstr "سياسة  للحسابات التحليلية"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__posted
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__posted
 msgid "Posted moves"
 msgstr "القيود المرحّلة"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,help:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,help:account_analytic_required.field_account_account__property_analytic_policy
 #, fuzzy
 msgid ""
 "Sets the policy for analytic accounts.\n"

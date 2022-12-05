@@ -17,12 +17,7 @@ msgstr ""
 "X-Generator: Weblate 3.8\n"
 
 #. module: account_analytic_required
-#: model:ir.model,name:account_analytic_required.model_account_account_type
-msgid "Account Type"
-msgstr "账户类型"
-
-#. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__always
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__always
 msgid "Always"
 msgstr "总是"
 
@@ -66,27 +61,27 @@ msgid "Journal Item"
 msgstr "日记帐项目"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__never
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__never
 msgid "Never"
 msgstr "从未"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__optional
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__optional
 msgid "Optional"
 msgstr "可选"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,field_description:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,field_description:account_analytic_required.field_account_account__property_analytic_policy
 msgid "Policy for analytic account"
 msgstr "分析帐户策略"
 
 #. module: account_analytic_required
-#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account_type__property_analytic_policy__posted
+#: model:ir.model.fields.selection,name:account_analytic_required.selection__account_account__property_analytic_policy__posted
 msgid "Posted moves"
 msgstr "已发布的移动"
 
 #. module: account_analytic_required
-#: model:ir.model.fields,help:account_analytic_required.field_account_account_type__property_analytic_policy
+#: model:ir.model.fields,help:account_analytic_required.field_account_account__property_analytic_policy
 #, fuzzy
 msgid ""
 "Sets the policy for analytic accounts.\n"
